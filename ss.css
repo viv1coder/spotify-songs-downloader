@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+header{
+    height:10vh;   background:linear-gradient(#19E58B,#1DD760);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:800;
+    color:white;
+    text-shadow:0.9px 0.9px #121212 ;
+}
+main{
+    height:90vh;
+    background-color:#121212;
+    padding:20px;
+    width:100%;
+}
+
+input[type="text"]{
+    height:40px;
+    width:89%;
+    margin:auto;
+    display:block;
+    padding:20px;
+    font-size:1.1rem;
+    border-radius:8px;
+    border:0.5px solid beige;
+}
+
+button{
+    height:40px;
+    margin:5px auto;
+    display: block;
+    width:40%;
+    border-radius:20px;
+    background-color: #1DD760;
+    color: #F9F9F9;
+    font-size:1.2rem;
+    border:0.8px solid blanchedalmond;
+    text-shadow:1px 1px black;
+}
+
+
+.message{
+  height:40px; 
+  border:2px dotted white; 
+  color:  white;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size:1.5rem;
+  margin:20px;
+  padding:10px;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+#download{
+   margin-top:50px; 
+   background:radial-gradient(red 10%, orange);
+   text-shadow:1px 1px black;
+   display:none;
+}
+
+.les{
+    animation:gg 0.8s linear 1 ;
+}
+
+@keyframes gg{
+  from{border:1px dashed aqua;}
+  to{border:2px solid aqua;}
+}
